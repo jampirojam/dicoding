@@ -29,7 +29,7 @@ console.log(myArray);
 delete myArray[1];
 console.log(myArray);
 
-// Menganti isi array
+// Mengganti isi array
 myArray[1] = "Ojam"
 console.log(myArray);
 
