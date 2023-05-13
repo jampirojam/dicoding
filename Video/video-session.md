@@ -12,3 +12,6 @@
 
 # Object-Oriented Programming
 [Object-Oriented Programming](https://youtu.be/Z5I46E3-QMU)
+
+# Functional Programming
+[Functional Programming](https://youtu.be/5z4RjiACs4Y)
