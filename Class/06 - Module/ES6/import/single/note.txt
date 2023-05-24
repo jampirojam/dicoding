@@ -1,0 +1,3 @@
+to implement node.js to ES 6
+- change .js to .mjs, or
+- add "type": "module", in package.json

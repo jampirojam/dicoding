@@ -1,0 +1,10 @@
+to implement node.js to ES 6
+- change .js to .mjs, or
+- add "type": "module", in package.json
+
+penamaan import menggunakan teknik destructuring object untuk mendapatkan nilai, 
+maka pastikan penamaan variabel sesuai dengan nama variabel yang diekspor.
+Namun, jika kita tetap ingin mengubah penamaan variabel dari named import, 
+kita bisa melakukannya dengan menambahkan keyword as setelah penamaan variabelnya.
+example:
+import { coffeeStock as stock, isCoffeeMachineReady } from './state.js';
