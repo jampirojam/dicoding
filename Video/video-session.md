@@ -18,3 +18,6 @@
 
 # Module
 [Module](https://youtu.be/gczp2b4oJsU)
+
+# Error Handling
+[Error Handling](https://youtu.be/nDaGcMT44jo)
