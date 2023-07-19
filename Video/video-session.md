@@ -24,3 +24,9 @@
 
 # Async Process
 [Async Process](https://youtu.be/kGu_caRJ-hw)
+
+# Node Package Module
+[Node Package Module](https://youtu.be/yFRCL6P1C8U)
+
+# Jest (JavaScript Unit Test)
+[Unit Test](https://youtu.be/nbVFAlB8Ec8)
