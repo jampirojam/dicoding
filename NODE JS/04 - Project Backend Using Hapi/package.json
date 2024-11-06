@@ -1,0 +1,28 @@
+{
+  "name": "04---project-backend-using-hapi",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon ./src/index.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "OJAM",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "hapi": "^18.1.0",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "nanoid": "^4.0.2"
+  }
+}

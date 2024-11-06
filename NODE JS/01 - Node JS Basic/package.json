@@ -1,0 +1,14 @@
+{
+  "name": "node-js-basic",
+  "version": "1.0.0",
+  "description": "learn node",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "OJAM",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
