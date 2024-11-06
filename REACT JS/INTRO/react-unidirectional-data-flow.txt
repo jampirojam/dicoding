@@ -1,0 +1,10 @@
+<Delivery>
+ 
+  <LocationPicker>
+    <OriginPicker />
+    <DestinationPicker />
+  </LocationPicker>
+ 
+  <input type="number"/>
+</Delivery>
+

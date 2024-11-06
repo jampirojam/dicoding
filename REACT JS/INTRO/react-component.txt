@@ -1,0 +1,34 @@
+{
+ type: 'p',
+ props: {
+   className: 'p-blue',
+   children: 'Content of paragraph.',
+ },
+}
+
+output:
+<p class="p-blue">Content of paragraph.</p>
+
+
+function Car({ manufacture, type, color }) {
+ return {
+   manufacture,
+   type,
+   color,
+   unitCode: `${+new Date()}-${manufacture}-${type}-${color}`,
+ }
+}
+
+output:
+function Car({ manufacture, type, color }) {
+ return (
+   <div className='car-info'>
+     <dt>Manufacture:</dt>
+     <dd>{manufacture}</dd>
+     <dt>Type:</dt>
+     <dd>{type}</dd>
+     <dt>Color:</dt>
+     <dd>{color}</dd>
+   </div>
+ );
+}
