@@ -1,0 +1,160 @@
+body {
+    max-width: 1024px;
+    margin: auto;
+    font-family: monospace;
+}
+
+header {
+    background-color: white;
+    margin-top: -10px;
+    border: 1px;
+    height: 50px;
+    padding: 2vh 0;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-radius: 0 0 50px 50px;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav > a {
+    padding: 10px 20px 0;
+}
+
+main, footer {
+    padding: 5vh 10vh;
+}
+
+img {
+    width: 100px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* MAIN */
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* HOME */
+.home {
+    width: 100%;
+    padding: 40vh 0;
+    text-align: center;
+    font-size: 200%;
+}
+
+/* CONTTENT */
+.article {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10vh;
+}
+
+.article > h1 {
+    padding: 5vh 0;
+    text-align: center;
+}
+
+.article > article {
+    padding-bottom: 5vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 25%;
+    padding-top: 5vh;
+}
+
+.profile {
+    padding-top: 10vh;
+}
+
+.profile > h4 {
+    text-align: center;
+    border: 1px dotted #000;
+}
+
+.profile > section > p {
+    font-size: 10px;
+}
+
+/* CONTACT */
+.contact {
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5vh;
+}
+
+/* OTHER */
+.border {
+    padding-top: 5vh;
+    border-top: 2px solid #000;
+    border-radius: 10px 10px 0 0;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 900px) {
+    .article, .sidebar {
+        width: 100% !important;
+    }
+
+    .profile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .profile > h4 {
+        width: 100%;
+    }
+
+    .profile > figure {
+        width: 30%;
+    }
+    
+    .profile > section {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home {
+        font-size: 100%;
+    }
+
+    .article {
+        font-size: 12px;
+    }
+
+    .article > h1, article {
+        padding: 2vh 0;
+    }
+
+    .article > article {
+        padding-bottom: 1vh;
+    }
+
+    .profile > figure, section {
+        width: 100% !important;
+    }
+
+    .contact { 
+        font-size: 12px;
+        flex-direction: column;
+        padding-bottom: 2vh;
+    }
+}

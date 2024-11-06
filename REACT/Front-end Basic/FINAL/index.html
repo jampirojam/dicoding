@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Bookshelf Apps</title>
+</head>
+
+<body>
+    <header>
+        <h1>BOOKSHELF</h1>
+    </header>
+
+    <main>
+        <section>
+            <form id="form">
+                <label for="title">Judul</label>
+                <input type="text" id="title" placeholder="book title" required>
+
+                <label for="author">Penulis</label>
+                <input type="text" id="author" placeholder="author name" required>
+
+                <label for="year">Tahun Terbit</label>
+                <input type="number" min="1900" max="2099" id="year" required>
+
+                <label for="is_completed">Selesai Dibaca</label>
+                <input type="checkbox" id="is_completed">
+
+                <button type="submit">Tambahkan Buku</button>
+            </form>
+        </section>
+
+        <section class="search">
+            <input type="text" id="search" placeholder="Cari judul buku dan tekan enter" oninput="search()">
+        </section>
+
+        <section class="book-list">
+            <div>
+                <h4>COMPLETED</h4>
+                <ul id="completed_list"></ul>
+            </div>
+
+            <div>
+                <h4>NOT COMPLETED</h4>
+                <ul id="not_completed_list"></ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a>&copy; Copyright
+            <script>document.write(new Date().getFullYear());</script> By OJAM
+        </a>
+    </footer>
+
+    <script src="./assets/script/script.js"></script>
+    <script src="./assets/script/books-action.js"></script>
+    <script src="./assets/script/search-action.js"></script>
+</body>
+
+</html>
